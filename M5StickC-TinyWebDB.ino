@@ -18,11 +18,11 @@
 #include <WiFiMulti.h>
 #include <HTTPClient.h>
 
-#define WIFI_SSID "uislab003" // ①
-#define WIFI_PASSWORD "nihao12345"
+#define WIFI_SSID "" 
+#define WIFI_PASSWORD ""
 
 WiFiMulti WiFiMulti;
-int count = 1;  // ③
+int count = 1; 
 
 #define USE_SERIAL Serial
 
