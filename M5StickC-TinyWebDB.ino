@@ -18,8 +18,8 @@
 #include <WiFiMulti.h>
 #include <HTTPClient.h>
 
-#define WIFI_SSID "" 
-#define WIFI_PASSWORD ""
+#define WIFI_SSID "" //<- wifi ssid
+#define WIFI_PASSWORD ""//<- wifi password
 
 WiFiMulti WiFiMulti;
 int count = 1; 
